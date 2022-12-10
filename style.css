@@ -1,0 +1,205 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+        max-width: 1200px;
+        margin: 0 auto;    
+        font-family: 'Sora', sans-serif;
+        ;        
+}
+
+*{
+       box-sizing: border-box;  
+
+}
+
+p{
+     font-size: 1.2;   
+     line-height: 1.27rem;            
+}
+
+h1, h2, h3, h4{
+ font-family: 'Poppins', sans-serif;
+        
+}
+
+
+
+
+.logo{
+
+        display: block;
+        margin: 1rem auto;            
+}
+
+nav{
+       display: flex; 
+       flex-direction: column;
+       text-align: center;            
+}
+
+
+nav a{
+       color: #000;
+       text-decoration: none;
+       padding: 0.7rem 0;             
+}
+
+
+nav a:hover{
+        color: #ff0ac2; 
+        font-size: 2.25;   
+        font-weight: 700; 
+        display: inline;  
+        background-color: #000000;    
+}
+
+header{
+        text-align: center;  
+        padding-bottom: 3rem; 
+        margin: 1rem 1rem;         
+}
+
+header h1{
+         font-size: 3rem; 
+         margin-bottom: 1rem; 
+         font-weight: 600;
+         margin-top: 0.5rem;
+}
+
+
+header p{
+            font-size: 1.2rem;  
+            margin-bottom: 1rem;      
+}
+
+.hero-image{
+      max-width: 100%; 
+      border-radius: 1rem;  
+      align-items: center;
+     text-align: center;
+              
+}
+
+
+section{
+        margin: 0 1rem;            
+}
+
+section div{
+       margin:2rem 0 ;             
+}
+
+section h2{
+           font-size: 1.25rem; 
+           margin: 0.9rem;        
+}
+
+section p{
+          font-size: 0.9rem;
+          margin: 0.9rem;          
+}
+
+.body-image{
+           max-width: 100%;  
+           border-radius: 1rem;  
+           align-items: center;
+          text-align: center;
+                          
+}
+
+address {
+         font-size: normal;           
+}
+
+address h2{
+              margin-left: 1rem;      
+}
+address p{
+          margin-left: 1.3rem;          
+}
+
+footer{
+        text-align: center;
+        font-size: 0.9rem;  
+        margin-bottom: 0.5rem;          
+}
+
+@media(min-width: 500px){
+
+     nav{
+           background-color: #f0551c;
+            flex-direction: row; 
+            justify-content: space-evenly;  
+
+     }               
+
+     nav a{
+             color: #fff;  
+             padding: 0.9rem; 
+             margin-bottom: 0; 
+             text-align: center;     
+     }
+
+     
+
+     header h1{
+                font-size: 4rem; 
+                 margin-top: 5rem;  
+                 margin-bottom: 2rem;
+
+     }
+
+     header p{
+                    font-size: 2rem;
+                    margin-bottom: 2rem;
+     }
+      
+
+}
